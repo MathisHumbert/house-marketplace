@@ -1,9 +1,5 @@
 const Explore = () => {
-  return (
-    <div>
-      <h1>Explore</h1>
-    </div>
-  );
+  return <h1>explore</h1>;
 };
 
 export default Explore;
