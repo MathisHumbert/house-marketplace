@@ -33,7 +33,6 @@ const Category = () => {
           orderBy('timestamp', 'desc'),
           limit(10)
         );
-        console.log(q);
 
         // Execute query
         const querySnap = await getDocs(q);
