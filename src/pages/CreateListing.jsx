@@ -136,6 +136,8 @@ const CreateListing = () => {
     };
 
     delete formDataCopy.images;
+    delete formDataCopy.latitude;
+    delete formDataCopy.longitude;
     delete formDataCopy.address;
     !formDataCopy.offer && delete formDataCopy.discountedPrice;
 
